@@ -14,7 +14,7 @@ void main() {
           children: [
             CachedNetworkImage(
               placeholder: (context, url) {
-                return Image(image: AssetImage('asset/image/placeolder.jpg'),),
+                return Image(image: AssetImage('asset/image/placeolder.jpg'));
               },
               imageUrl:
                   'https://www.shutterstock.com/image-photo/portrait-crawling-baby-on-bed-her-189429203',
